@@ -24,9 +24,8 @@ L’interface mise en place permet à un utilisateur ce qui suit:
 
 </details>
 <br/>
-Pour lancer le projet pour la première fois il suffit d'exécuter la liste de commande suivante: 
+Pour lancer le projet pour la première fois il suffit de:
 
+1 - se pointer dans le dossier lab2 avec l'invite de commande
 <br/>
-1 - 
-<br/>
-5 - Lancer app.py : "streamlit run app.py"
+2 - Lancer app.py : "streamlit run app.py"
