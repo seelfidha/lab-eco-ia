@@ -6,7 +6,10 @@
 
 <br/>
 <details>
-Ce mini-lab porte sur le développement d’une application simple de visualisation de données avec **Streamlit**. 
+Ce mini-lab porte sur le développement d’une application simple d'interaction avec des modeles ollama en utilisant **Streamlit**. 
+
+Faute de performance, des modèles légers tels que gemma3:270m & qwen3:0.6b ont été utilisé 
+
 L’interface mise en place permet à un utilisateur ce qui suit:
 
 <br/>
@@ -16,7 +19,7 @@ L’interface mise en place permet à un utilisateur ce qui suit:
 2 - Installer la bibliotheque ollama localement : "pip install ollama"
 
 <br/>
-3 - Faire un pull des modeles a utiliser : "ollama pull gemma3:270m", "ollama pull qwen3:0.6b" & "ollama pull qwen2.5-coder:0.5b"
+3 - Faire un pull des modeles a utiliser tels que: "ollama pull gemma3:270m", "ollama pull qwen3:0.6b" & "ollama pull qwen2.5-coder:0.5b"
 "
 
 </details>
