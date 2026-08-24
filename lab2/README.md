@@ -29,3 +29,21 @@ Pour lancer le projet pour la première fois il suffit de:
 1 - se pointer dans le dossier lab2 avec l'invite de commande
 <br/>
 2 - Lancer app.py : "streamlit run app.py"
+
+
+<br/>
+Pour lancer l'application depuis docker desktop, 
+
+1 - pointez vous dans le dossier du lab a executer
+
+<br/>
+2 - Ensuite creer une image docker avec la commande: docker build -t app-name . 
+(remplacez app-name par le nom de l'instance de votre choix)
+
+<br/>
+3 - Une fois l'image cree lancez l'execution soit:
+(a) avec docker desktop (n'oubliez pas de specifier le port 8501)
+(b) ou via la commande docker run -p 8501:8501 app-name
+
+<br/> 
+PS: vous devez installer Ollama localement pour utiliser l'application sinon vous erreur une d'execution
