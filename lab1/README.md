@@ -46,3 +46,17 @@ Pour lancer le projet pour la première fois il suffit d'exécuter la liste de c
 
 <br/>
 PS: Vous pouvez rencontrer une erreur liée a l'installation de la bibliothéque matplotlib
+
+<br/>
+Pour lancer l'application depuis docker desktop, 
+
+1 - pointez vous dans le dossier du lab a executer
+
+<br/>
+2 - Ensuite creer une image docker avec la commande: docker build -t app-name . 
+(remplacez app-name par le nom de l'instance de votre choix)
+
+<br/>
+3 - Une fois l'image cree lancez l'execution soit:
+(a) avec docker desktop (n'oubliez pas de specifier le port 8501)
+(b) ou via la commande docker run -p 8501:8501 app-name
